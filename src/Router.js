@@ -18,7 +18,7 @@ export default class Router extends Component {
                 <Route path="/home" component={Home} />
                 <Route path="/filter" component={Filter} />
                 <Route path="/details" component={Details} />
-                <Route path="/google06d15073cc6466c0.html" component={GoogleVerif} />
+                <Route path="/google06d15073cc6466c0.html" render={() => <div>{GoogleVerif}</div>} />
             </BrowserRouter>
         )
     }
