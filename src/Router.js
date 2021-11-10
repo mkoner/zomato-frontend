@@ -12,7 +12,7 @@ export default class Router extends Component {
     render() {
         return (
             <BrowserRouter>
-                <Route path="/google06d15073cc6466c0.html" render={() => <Link to="./google06d15073cc6466c0.html"></Link>} />
+                <Header />
                 <Route exact path="/" component={Home} />
                 <Route path="/home" component={Home} />
                 <Route path="/filter" component={Filter} />
