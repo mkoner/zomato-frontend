@@ -6,6 +6,9 @@ import Filter from './components/Filter';
 import Details from './components/Details';
 import Header from './components/Header';
 
+const GoogleVerif= './google06d15073cc6466c0.html'
+
+
 export default class Router extends Component {
     render() {
         return (
@@ -15,6 +18,7 @@ export default class Router extends Component {
                 <Route path="/home" component={Home} />
                 <Route path="/filter" component={Filter} />
                 <Route path="/details" component={Details} />
+                <Route path="/google06d15073cc6466c0.html" component={GoogleVerif} />
             </BrowserRouter>
         )
     }
